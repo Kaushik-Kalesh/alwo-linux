@@ -17,6 +17,7 @@ Checkout [ALWO for Windows](https://github.com/kaushik-kalesh/alwo)
 1. Make a config file, default location is `~/.config/alwo/config`
 2. Provide a workspace name followed by `;` 
 3. Add the list of applications assoicated with the workspace along segregated by their desktops. Desktops are numbered from 0 followed by `:`
+
 Example:
 ```txt
 work;
