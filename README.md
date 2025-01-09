@@ -1,7 +1,7 @@
 # ALWO (App Launcher and Worspace Organizer)
 ALWO is an app launcher which launches multiple apps at the same time as required by the user's workflow.
 
-Checkout [ALWO for Windows](https://github.com/kaushik-kalesh/alwo)
+> Checkout [ALWO for Windows](https://github.com/kaushik-kalesh/alwo)
 
 ### Features:
 - Launch mutliple apps at the same time
@@ -17,6 +17,7 @@ Checkout [ALWO for Windows](https://github.com/kaushik-kalesh/alwo)
 1. Make a config file, default location is `~/.config/alwo/config`
 2. Provide a workspace name followed by `;` 
 3. Add the list of applications assoicated with the workspace along segregated by their desktops. Desktops are numbered from 0 followed by `:`
+4. Optionally, provide a delay for an application to launch within `[]` (in seconds) at the end of the command 
 
 Example:
 ```txt
@@ -40,3 +41,5 @@ spotify
 alwo work
 ``` 
 6. Run `alwo -h` for more information
+
+> Note: Ensure `wmctrl` package is installed
